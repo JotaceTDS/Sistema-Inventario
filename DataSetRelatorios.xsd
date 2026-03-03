@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetRelatorios" targetNamespace="http://tempuri.org/DataSetRelatorios.xsd" xmlns:mstns="http://tempuri.org/DataSetRelatorios.xsd" xmlns="http://tempuri.org/DataSetRelatorios.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetRelatorios" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="DataSetRelatorios" msprop:Generator_DataSetName="DataSetRelatorios">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="RelatorioProdutos" msprop:Generator_RowEvHandlerName="RelatorioProdutosRowChangeEventHandler" msprop:Generator_RowDeletedName="RelatorioProdutosRowDeleted" msprop:Generator_RowDeletingName="RelatorioProdutosRowDeleting" msprop:Generator_RowEvArgName="RelatorioProdutosRowChangeEvent" msprop:Generator_TablePropName="RelatorioProdutos" msprop:Generator_RowChangedName="RelatorioProdutosRowChanged" msprop:Generator_RowChangingName="RelatorioProdutosRowChanging" msprop:Generator_TableClassName="RelatorioProdutosDataTable" msprop:Generator_RowClassName="RelatorioProdutosRow" msprop:Generator_TableVarName="tableRelatorioProdutos" msprop:Generator_UserTableName="RelatorioProdutos">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EmpresaNome" msprop:Generator_ColumnPropNameInRow="EmpresaNome" msprop:Generator_ColumnPropNameInTable="EmpresaNomeColumn" msprop:Generator_ColumnVarNameInTable="columnEmpresaNome" msprop:Generator_UserColumnName="EmpresaNome" type="xs:string" minOccurs="0" />
+              <xs:element name="UsuarioNome" msprop:Generator_ColumnPropNameInRow="UsuarioNome" msprop:Generator_ColumnPropNameInTable="UsuarioNomeColumn" msprop:Generator_ColumnVarNameInTable="columnUsuarioNome" msprop:Generator_UserColumnName="UsuarioNome" type="xs:string" minOccurs="0" />
+              <xs:element name="ProdutoNome" msprop:Generator_ColumnPropNameInRow="ProdutoNome" msprop:Generator_ColumnPropNameInTable="ProdutoNomeColumn" msprop:Generator_ColumnVarNameInTable="columnProdutoNome" msprop:Generator_UserColumnName="ProdutoNome" type="xs:string" minOccurs="0" />
+              <xs:element name="Quantidade" msprop:Generator_ColumnPropNameInRow="Quantidade" msprop:Generator_ColumnPropNameInTable="QuantidadeColumn" msprop:Generator_ColumnVarNameInTable="columnQuantidade" msprop:Generator_UserColumnName="Quantidade" type="xs:string" minOccurs="0" />
+              <xs:element name="Status" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnPropNameInTable="StatusColumn" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_UserColumnName="Status" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
